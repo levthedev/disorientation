@@ -14,18 +14,6 @@
  *= require_self
  */
 
-@font-face {
-	font-family: 'DINbekBold';
-	src: url('/assets/DINbekBold.ttf');
-}
-
-html {
-	text-align: right;
-	text-decoration: none;	
-	font-family: 'DINbekBold';
-	src: url('/assets/DINbekBold.ttf');
-}
-
 #slash {
 	font-family: Verdana;
 	font-weight: lighter;

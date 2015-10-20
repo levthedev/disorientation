@@ -1,3 +1,15 @@
 // Place all the styles related to the static controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@font-face {
+	font-family: 'DINbekBold';
+	src: font-url('/assets/DINbekBold.ttf');
+}
+
+html {
+	text-align: right;
+	text-decoration: none;	
+	font-family: 'DINbekBold';
+	src: font-url('/assets/DINbekBold.ttf');
+}
