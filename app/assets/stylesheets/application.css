@@ -1,0 +1,65 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@font-face {
+	font-family: 'DINbekBold';
+	src: url('/assets/DINbekBold.ttf');
+}
+
+html {
+	text-align: right;
+	text-decoration: none;	
+	font-family: 'DINbekBold';
+	src: url('/assets/DINbekBold.ttf');
+}
+
+#slash {
+	font-family: Verdana;
+	font-weight: lighter;
+}
+
+#black {
+	font-size: 1000%;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#subtitle {
+	font-size: 200%;
+	text-align: center;
+	line-height: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.slice {
+	padding: 1%;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+.slice:hover {
+	color: white;
+	background: black
+}
+
+a:link, a:visited {
+	font-size: 500%;
+	font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
